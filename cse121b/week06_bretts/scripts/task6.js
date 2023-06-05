@@ -73,7 +73,7 @@ async function getJokes() {
   // Test local file
   // let response = await fetch('./data/jokes.json');
   let response = await fetch(
-    'https://topwebworks.github.io/cse121b/week06_bretts/data/jokes.json'
+    'https://topwebworks.github.io/byui/cse121b/week06_bretts/data/jokes.json'
   );
   let data = await response.json();
   jokeList = data;
