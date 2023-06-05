@@ -1,0 +1,52 @@
+CSE 121B W05 Project Idea - Brett Snyder
+
+Description of Project - to take about 3 hours. 
+
+** Random Jokes **
+
+1. The user will be shown a random list of jokes either a default list of all or by filtered joke types.
+
+2. The user can filter a random joke type by selecting:
+- All Jokes
+- General Jokes
+- Programming Jokes
+- Knock-Knock Jokes
+
+3. The page will show the total jokes of each joke list with a random adjective.
+"300 {adjective} RANDOM JOKES!"
+
+---------------------
+
+Addressing Project Requirements
+
+Describe how this project will make use of the required elements.
+
+FETCH
+Fetch joke data from jokes JSON file. Use async and await.
+
+OBJECTS
+Create joke array of objects from json file
+
+ARRAY
+forEach - joke list, default or filtered, will generate a random array of joke objects 
+
+FILTER
+filter - The selected filter will show a randomized joke list of only the selected joke type.
+
+SORT
+Each joke list will randomly sort the data so each list is shown in a random order.
+
+DOM
+Create html elements for each joke in the jokeList object array. H2, H4, H5, Article. Place in joke totals and random adjectives. Event listener for filtered dropdown list.
+
+CONDITIONAL
+If/Else - for dropdown joke type filter and selected type value.
+
+FUNCTIONS
+output() - Create html elements for each joke in the all jokes or filtered jokes object array
+getJokes() - Fetch and output all jokes from the jokes.json file. Call joke totals
+jokeType() - Reset and filter the jokes by type. Output selected list. Call joke list totals
+jokeTotals() - Get joke totals and selected value condition from jokeType function
+reset() - Reset joke list html. Called by jokeType filter function
+
+

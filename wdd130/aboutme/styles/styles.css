@@ -1,0 +1,101 @@
+/* reset */
+
+body {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  z-index: 0;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a,
+button {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+hr,
+p,
+h1,
+h2,
+h3,
+h4 {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+/* ------- TESTING ------- */
+
+.border-red {
+  border: 1px solid red;
+}
+
+.border-green {
+  border: 1px solid green;
+}
+
+.border-blue {
+  border: 1px solid blue;
+}
+
+/* global styles */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  width: 100%;
+}
+
+.container-lg {
+  max-width: 1024px;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.max-w-xs {
+  max-width: 250px;
+}
+
+.my-lg {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.my-md {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.my-xs {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.px-md {
+  padding-left: 4%;
+  padding-right: 4%;
+}
+
+.rounded-md {
+  border-radius: 10px;
+}
+
+.text-base {
+  font-size: 16px;
+  line-height: 28px;
+}
+
+/* profile page styles */

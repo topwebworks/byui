@@ -1,0 +1,37 @@
+Second Report for a Student Chosen Project
+
+Do the following:
+
+1. In the table below, list the dates, amount of time spent, and
+description of the work that you did on your project. Follow the example
+that is in the first row of the table below. Include the time you spent
+doing any of the following:
+    a. discussing your project with your teacher, tutor, or fellow students
+    b. researching by reading articles and watching applicable videos
+    c. designing your project by drawing diagrams and other applicable documents
+    d. writing experimental code
+    d. writing code for your project
+    e. writing test functions
+    f. debugging your code
+    g. any other activity that helped you complete your project
+
+            Time Spent
+   Date     13 (hours)   Description of Work
+----------  ----------  -------------------------
+2023-1-18      1     Decide approach - outline expected output. Copied it in the top of my code as reference.
+2023-1-18      2     Work on get_word_list() spend time cleaning/shaping the word_list. Add re module. Add call to main(). Used print to test.
+2023-1-18      1     add_keywords() function creates the user input keyword_list. Nothing new here. Add call to main(). Used print to test.
+2023-1-18      1     word_count() add word counts to the word_list to create the word_count_dict. Gotta love count(). Add call to main(). Used print to test.
+2023-1-18      1     add both sorted_highest_usage() and sorted_alphabetical(). Tested but did not implement yet. Used print to test lists.
+2023-1-19      1     Enter threshold input to main() with try/exception for redundant words shown.
+2023-1-19      1     get_full_list_option() add in the 2 sort options for sorted full dictionary output.
+2023-1-19      1     Add get_threshold_words(). Then add to main() both keyword and sorted full list calls.
+2023-1-19      1     Add get_keyword_counts(). Compare keywords to dict and output keyword with dict count. Used debugger to test.
+2023-1-19      1     Spend time cleaning up code and spacing. Also add Intro and Footer.
+2023-1-19      2     Create 3 test cases in Pytest. Two that test word_count() and one that tests the key value for sorted_highest_usage(). Finished!
+
+
+2. In I-Learn, submit this completed text file, your Python program, your
+Python test file, and any project data files such as .txt and .csv files.
+
+NOTE: This report_2.txt time data is the same as report_1.txt as I had already finished the project. 13 hrs total.

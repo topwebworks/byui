@@ -1,0 +1,58 @@
+CSE 111 Proposal for a Student Chosen Program - Brett Snyder
+I chose from the provided "Possible Projects" list item #3:
+-> A program that reads a text file and counts how often each word occurs in the file.
+
+1. What is the title of your program?
+    Word Counter
+
+2. What real-world problem will your program address or help to solve?
+    A. In Marketing, having too much of the same word will sound redundant in an article.
+    B. More importantly in website SEO, having several of the target keywords is ideal.
+    
+    Expected Output
+
+    Title
+    Instruction    
+
+    Inputs:
+      1. File to read (ie., proposal.txt):
+      2. Add keyword to scan? or (done)
+      3. Redundant word threshold (0-100+): 
+
+    Output:
+      Scanned Keywords:
+      'keyword1' used 5 times.
+      'keyword2' not found.
+      ...  
+
+      Threshold Words:
+      3 - word 1
+      5 - word 6
+      ... 
+
+      Print full word list? (yes or no):
+      Sort by: (alpha, hilow, or end):
+      8 - word 21
+      5 - word 6
+      2 words used over 5 times.
+      ...
+
+      200 Words scanned in article_name. Goodbye!
+      Date/Time Stamp
+
+3. What will you learn from developing this program?
+    A. Reading a file
+    B. Try Exception when entering the file name
+    C. Sort and output the file word data calculating each word occurrence.
+
+4. What Python modules will your program use?
+    datetime, pytest, os, re
+
+5. Will you separate your Python program into functions that each
+perform a single task?
+    Yes, I will use a standard procedural programming approach: read_file(), parameters, arguments, etc.
+
+6. Will you write test functions to test at least two of your program
+functions?
+    Yes, to check main word list that they are counting correctly. Also, if the sort function is passing key values.
+

@@ -1,0 +1,21 @@
+Please respond thoroughly (at least two sentences for each question) to
+the following three questions.
+
+1. Describe an experience you had this semester where you saw the power of functions. 
+
+The last project showed me clearly how functions made an overcomplicated process into a simple function-by-function approach. Each new feature is stored neatly into a function making creating that project a straightforward process. The power to call and pass arguments into each function makes the whole program easy to understand.
+
+
+
+2. In your judgment, what is the value of test functions?
+
+Test functions add a versatile approach to testing. You can add more variations of tests using Pytest than using the debugger or just using print. By passing in variations of asserts and expected results, you can cover a wider range of possibilities.
+
+
+
+3. Describe your process for troubleshooting and fixing a program that has a problem. What is one thing you can do to improve your process?
+
+First, I like to do a quick preview of output using the print statement, and review any error descriptions. If I see a problem that needs deeper research, I will use the debugger and follow what values and types are being passed. After the program is done, and I have the time, I may use the test function. Plus, research the problem online, or ask a team member if they have seen this issue.
+
+
+

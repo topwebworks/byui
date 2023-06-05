@@ -1,0 +1,58 @@
+First Report for a Student Chosen Project
+
+    (Please report on your progress toward completing your chosen
+    project by answering the following questions.)
+
+1. In the table below, list the dates, amount of time spent, and
+description of the work that you did on your project. Follow the example
+that is in the first row of the table below. Include the time you spent
+doing any of the following:
+    a. discussing your project with your teacher, tutor, or fellow students
+    b. researching by reading articles and watching applicable videos
+    c. designing your project by drawing diagrams and other applicable documents
+    d. writing experimental code
+    d. writing code for your project
+    e. writing test functions
+    f. debugging your code
+    g. any other activity that helped you complete your project
+
+            Time Spent
+   Date     13 (hours)   Description of Work
+----------  ----------  -------------------------
+2023-1-18      1     Decide approach - outline expected output. Copied it in the top of my code as reference.
+2023-1-18      2     Work on get_word_list() spend time cleaning/shaping the word_list. Add re module. Add call to main(). Used print to test.
+2023-1-18      1     add_keywords() function creates the user input keyword_list. Nothing new here. Add call to main(). Used print to test.
+2023-1-18      1     word_count() add word counts to the word_list to create the word_count_dict. Gotta love count(). Add call to main(). Used print to test.
+2023-1-18      1     add both sorted_highest_usage() and sorted_alphabetical(). Tested but did not implement yet. Used print to test lists.
+2023-1-19      1     Enter threshold input to main() with try/exception for redundant words shown.
+2023-1-19      1     get_full_list_option() add in the 2 sort options for sorted full dictionary output.
+2023-1-19      1     Add get_threshold_words(). Then add to main() both keyword and sorted full list calls.
+2023-1-19      1     Add get_keyword_counts(). Compare keywords to dict and output keyword with dict count. Used debugger to test.
+2023-1-19      1     Spend time cleaning up code and spacing. Also add Intro and Footer.
+2023-1-19      2     Create 3 test cases in Pytest. Two that test word_count() and one that tests the key value for sorted_highest_usage(). Finished!
+
+
+
+2. Write the names of the functions in your program.
+main, get_word_list, add_keywords, word_count, sorted_highest_usage, sorted_alphabetical, get_full_list_option, get_threshold_words, get_keyword_counts
+
+
+3. Answer the following questions about the functions in your program.
+    a. Does each function perform a single task?
+    It does per the naming description, with some subtasks mixed in.
+
+    b. Does the name of each function describe or convey the task?
+    Yes.
+
+    c. Do most of your program functions have parameters and return a result?
+    Some return values, some perform output based on conditions.
+
+    If you answered "no" to any of the above three questions, what are
+    you planning to change in your project?
+    --NA--
+
+
+4. Write the names of the test functions that you wrote to test your
+program functions.
+test_word_count_returns_dictionary_of_single_words, test_word_count_returns_dictionary_of_duplicate_words, test_sorted_key_value_are_working
+
